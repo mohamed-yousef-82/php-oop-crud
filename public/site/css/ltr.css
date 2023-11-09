@@ -1,0 +1,206 @@
+body,
+p,
+a,
+li,
+input,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    direction: ltr;
+}
+
+.navbar-brand {
+    margin-left: 0px !important;
+    margin-right: auto;
+    left: 100px;
+    right: auto;
+}
+
+#main-slider .carousel-indicators {
+    left: 100px;
+    right: auto;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#main-slider .next {
+    left: 95px;
+    right: auto;
+}
+
+#main-slider .prev {
+    left: 95px;
+    right: auto;
+}
+
+.rotated-icons-container {
+    right: 190px;
+    left: auto;
+}
+
+#main-slider .carousel-caption, #main-slider .carousel-caption.d-md-block {
+    z-index: 2;
+    left: 17%;
+    right: auto;
+    text-align: left;
+    width: 40%;
+}
+
+.section_two .pattern-bottom {
+    right: 72px;
+    left: auto;
+}
+
+.section_two .img-mask {
+    right: 23px;
+    left: auto;
+}
+
+@keyframes mask {
+    0% {
+        background-position: 200% 0px;
+    }
+
+    50% {
+        background-position: 80% 0px;
+    }
+
+
+    100% {
+        background-position: 200% 0px;
+    }
+}
+
+@-webkit-keyframes mask {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    17% {
+        background-position: -50px 0px;
+    }
+
+    34% {
+        background-position: 0px 0px;
+    }
+
+    50% {
+        background-position: 10px 0px;
+    }
+
+    67% {
+        background-position: 0px 0px;
+    }
+
+    80% {
+        background-position: -50px 0px;
+    }
+
+    100% {
+        background-position: -0px 0px;
+    }
+}
+
+.section_four ul li div:before {
+    left: 25%;
+}
+
+.section_six-content .title-widget {
+    background-position: left;
+}
+
+.section_six-content i {
+    margin-right: 10px;
+    left: auto;
+}
+
+.section_seven .video-text {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.section_eight .overflowhide {
+    background-position: right;
+}
+
+#header .search-btn {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+#header .navbar-nav>li {
+    margin-right: 3px;
+    margin-left: 0;
+}
+
+#header .menu-btn {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.gallery .options .option .label .icon {
+    left: 5px;
+    right: auto;
+}
+
+.gallery .options .option .label .info {
+    margin-right: 30px;
+}
+
+#footer h3 i {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.gallery h2 {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.gallery .galary-header a {
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+#header .navbar-inverse .navbar-nav .dropdown-menu {
+    left: 0;
+    right: auto;
+    text-align: left;
+}
+
+.section_seven .modal-header {
+    direction: rtl;
+
+}
+
+#footer .footer-bottom .footer-icons a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.header-icons .btn i {
+    margin-right: 5px;
+    margin-left: 0;
+}
+.header-icons .btn i.fa-whatsapp {
+    margin-right: 0px;
+}
+.menu {
+    left: -100%;
+    right: auto;
+}
+.view{
+    left: 0;
+    right: auto;
+    transition: 1s;
+}
+@media (max-width: 767px) {
+    #header .header-search-box {
+        position: absolute;
+        right: 10px;
+        left: auto;
+    }
+}

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: DroidKufi-Bold;
+    src: url(../fonts/DroidKufi-Bold.ttf);
+}
+
+@font-face {
+    font-family: DroidKufi-Regular;
+    src: url(../fonts/DroidKufi-Regular.ttf);
+}
+
+:root {
+    --orange: #f28d2b;
+    --dark: #0a4564;
+  }
+body {
+    direction: rtl;
+    font-family: "DroidKufi-Regular", sans-serif;
+}
+button,input,pre{
+    font-family: "DroidKufi-Regular", sans-serif;    
+}
+pre{
+width: 100%;
+word-wrap: break-word;
+word-break: break-all;
+white-space: pre-wrap;
+
+}
+*{
+    direction: rtl;
+}
+nav > ul > li a i{
+    margin-left: 5px;
+    margin-right: 0;
+}
+textarea{
+    direction: rtl;
+    text-align: right;
+}
+.row .box:last-child .panel{
+    margin-left: 0px;
+  }
+  .stats .box .stat {
+    margin: 10px 10px 0px 0px;
+}
+.stats .box:nth-child(1) .stat, .stats .box:nth-child(1) .stat p, .stats .box:nth-child(1) .stat a {
+    color: #e74c3c;
+    margin-right: 0px;
+    margin-left: inherit;
+}
+.section-title i {
+    margin-right: 0px;
+    margin-left: 5px;
+}
